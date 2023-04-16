@@ -1,0 +1,25 @@
+@import url("../../style-guide/colors.css");
+
+.navigation-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent   ;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.navigation-button > p {
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.focused {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+.focused > p {
+    color: var(--marine-blue)
+}
