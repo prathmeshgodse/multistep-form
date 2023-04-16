@@ -1,0 +1,18 @@
+.textfield > p {
+    font-size: 0.8rem;
+    color: var(--marine-blue);
+    margin-bottom: 2px;
+}
+
+.textfield > input {
+    border-style: none;
+    border: 1px solid var(--light-gray);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.textfield > input::placeholder {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--cool-gray)
+}
