@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ToggleSwitch from "./components/toggle-switch/ToggleSwitch";
 
 function App() {
   return (

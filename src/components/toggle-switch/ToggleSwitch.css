@@ -1,0 +1,17 @@
+.toggle-switch {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-switch > p {
+    color: var(--cool-gray);
+    font-weight: bold;
+}
+
+.toggle-switch > .switch {
+    margin: 0 2rem
+}
+
+.toggle-switch > p.selected {
+    color: var(--marine-blue);
+}

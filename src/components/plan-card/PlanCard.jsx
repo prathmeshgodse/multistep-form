@@ -14,8 +14,10 @@ function PlanCard(props) {
       <img src={props.icon} alt="plan-icon" />
       <div className="details">
         <p className="name">{props.name}</p>
-        <p className="price">{`$${props.price}/${props.tenure}`}</p>
-        {props.tenure === "yr" ? <p className="perks">{props.perks}</p> : null}
+        <p className="price">{`$${props.price}/${
+          props.tenureIsYearly ? "yr" : "mo"
+        }`}</p>
+        {props.tenureIsYearly ? <p className="perks">{props.perks}</p> : null}
       </div>
     </div>
   );
